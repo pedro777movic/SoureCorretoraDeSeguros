@@ -8,7 +8,7 @@ export default function Hero() {
           SOURE CORRETORA DE SEGUROS
         </h2>
         <h1 className="mb-6 font-light text-4xl md:text-5xl leading-tight">
-          Encontramos o seguro ideal para proteger seus sonhos.
+          Proteção inteligente para o que realmente importa na sua vida.
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-base text-muted-foreground md:text-lg">
           Soluções completas em seguros, com atendimento humano, rápido e transparente.
