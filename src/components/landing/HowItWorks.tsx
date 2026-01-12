@@ -43,7 +43,10 @@ export default function HowItWorks() {
                     ))}
                 </div>
                 <div className="mt-12 text-center">
-                    <WhatsAppButton>
+                     <WhatsAppButton size="default" className="md:hidden">
+                        Falar com um corretor
+                    </WhatsAppButton>
+                    <WhatsAppButton className="hidden md:inline-flex">
                         Falar com um corretor no WhatsApp
                     </WhatsAppButton>
                 </div>

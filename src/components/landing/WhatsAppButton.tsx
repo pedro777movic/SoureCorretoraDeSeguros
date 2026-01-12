@@ -15,7 +15,7 @@ const WHATSAPP_LINK = "https://wa.me/5511999999999?text=Ol%C3%A1%21+Gostaria+de+
 export default function WhatsAppButton({ children, className, size = 'default' }: WhatsAppButtonProps) {
   const sizeClasses = size === 'large'
     ? 'px-8 py-4 text-lg'
-    : 'px-6 py-3 text-sm';
+    : 'px-6 py-3 text-base font-bold';
 
   return (
     <Link

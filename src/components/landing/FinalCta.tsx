@@ -7,7 +7,10 @@ export default function FinalCta() {
                 <h2 className="mb-8 font-light text-3xl md:text-5xl leading-tight">
                     Pronto para encontrar a proteção ideal?
                 </h2>
-                <WhatsAppButton size="large">
+                <WhatsAppButton size="default" className="md:hidden">
+                    Atendimento no WhatsApp
+                </WhatsAppButton>
+                 <WhatsAppButton size="large" className="hidden md:inline-flex">
                     Atendimento imediato no WhatsApp
                 </WhatsAppButton>
             </div>

@@ -82,7 +82,7 @@ import {
                   </AccordionContent>
                 </AccordionItem>
                  <div className="mt-auto p-6 pt-0">
-                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação agora</Button>
+                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
                 </div>
               </Card>
             </Accordion>
@@ -99,7 +99,7 @@ import {
                   <CardDescription className="text-sm text-muted-foreground">{item.description}</CardDescription>
                 </CardContent>
                 <div className="p-6 pt-0">
-                  <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação agora</Button>
+                  <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
                 </div>
               </Card>
             ))}
