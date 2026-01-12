@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-80px)] items-center justify-center overflow-hidden text-center">
       <div className="container relative z-10 mx-auto px-4 py-20">
-        <h2 className="mb-4 text-2xl font-bold uppercase tracking-widest text-white/80 md:text-3xl">
+        <h2 className="mb-4 text-2xl font-bold uppercase tracking-wider text-white/80 md:text-3xl">
           SOURE CORRETORA DE SEGUROS
         </h2>
-        <h1 className="mb-6 font-light text-4xl md:text-5xl leading-tight">
+        <h1 className="mb-6 font-light text-3xl md:text-4xl leading-tight">
           Proteção inteligente para o que realmente importa na sua vida.
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-base text-muted-foreground md:text-lg">
