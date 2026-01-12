@@ -13,7 +13,7 @@ import {
   } from "@/components/ui/accordion";
   import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
   import { Button } from "@/components/ui/button";
-  import { Car, Home, Heart, Smile, Building2 } from "lucide-react";
+  import { Car, Home, Heart, Smile, Building2, Hospital } from "lucide-react";
   
   const insuranceOptions = [
     {
@@ -25,6 +25,11 @@ import {
       icon: Heart,
       title: "Seguro de Vida",
       description: "Garanta a segurança e o futuro de quem você ama com planos flexíveis.",
+    },
+    {
+      icon: Hospital,
+      title: "Plano de Saúde",
+      description: "Acesso aos melhores hospitais e laboratórios para cuidar da sua saúde e bem-estar.",
     },
     {
       icon: Smile,
@@ -108,4 +113,3 @@ import {
       </section>
     );
   }
-  
