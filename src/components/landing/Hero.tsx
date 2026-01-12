@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-80px)] items-center justify-center overflow-hidden text-center">
       <div className="container relative z-10 mx-auto px-4 py-20">
-        <h2 className="mb-4 text-4xl font-bold uppercase tracking-widest text-white/80">
+        <h2 className="mb-4 text-5xl font-bold uppercase tracking-widest text-white/80">
           Soure Corretora de Seguros
         </h2>
         <h1 className="mb-6 font-light text-3xl md:text-5xl leading-tight">
