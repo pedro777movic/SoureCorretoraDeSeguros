@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-80px)] items-center justify-center overflow-hidden text-center">
        <Image
-          src="https://picsum.photos/seed/family/1920/1080"
+          src="https://i.postimg.cc/HkZPKfmm/Gemini-Generated-Image-i8mr1zi8mr1zi8mr.png"
           alt="Family feeling secure"
           fill
           className="object-cover object-center"
@@ -14,10 +14,10 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-background/60 backdrop-brightness-75"></div>
       <div className="container relative z-10 mx-auto px-4 py-20">
-        <h2 className="mb-4 text-2xl font-bold uppercase tracking-widest text-white/90 md:text-3xl lg:text-4xl">
-          SOURE CORRETORA DE SEGUROS
+        <h2 className="mb-6 font-medium uppercase tracking-[0.2em] text-white/80 md:text-lg">
+          Soure Corretora de Seguros
         </h2>
-        <h1 className="mb-6 text-4xl font-light leading-tight text-white md:text-5xl">
+        <h1 className="mb-6 text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
           Proteção inteligente para o que realmente importa na sua vida.
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-base text-muted-foreground md:text-lg">
