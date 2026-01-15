@@ -13,31 +13,36 @@ import {
   } from "@/components/ui/accordion";
   import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
   import { Button } from "@/components/ui/button";
-  import { Car, Home, Heart, Smile, Building2, Hospital } from "lucide-react";
+  import Image from "next/image";
   
   const insuranceOptions = [
     {
-      icon: Home,
+      image: "https://picsum.photos/seed/house/400/250",
+      imageHint: "modern house",
       title: "Seguro Residencial",
       description: "Sua casa protegida contra imprevistos. Cuidamos do seu lar como se fosse nosso.",
     },
     {
-      icon: Heart,
+      image: "https://picsum.photos/seed/life/400/250",
+      imageHint: "happy couple",
       title: "Seguro de Vida",
       description: "Garanta a segurança e o futuro de quem você ama com planos flexíveis.",
     },
     {
-      icon: Hospital,
+      image: "https://picsum.photos/seed/health/400/250",
+      imageHint: "doctor patient",
       title: "Plano de Saúde",
       description: "Acesso aos melhores hospitais e laboratórios para cuidar da sua saúde e bem-estar.",
     },
     {
-      icon: Smile,
+      image: "https://picsum.photos/seed/dental/400/250",
+      imageHint: "person smiling",
       title: "Seguro Odontológico",
       description: "Sorria com confiança. Acesso a uma ampla rede de dentistas e clínicas.",
     },
     {
-      icon: Building2,
+      image: "https://picsum.photos/seed/business/400/250",
+      imageHint: "office building",
       title: "Seguro Empresarial",
       description: "Proteja seu negócio, seus funcionários e seu patrimônio contra riscos.",
     },
@@ -54,11 +59,11 @@ import {
   
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Accordion type="single" collapsible className="lg:col-span-1 md:col-span-2">
-              <Card className="bg-card/80 flex flex-col h-full">
+              <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
+                 <Image src="https://picsum.photos/seed/car/400/250" alt="Car on a road" width={400} height={250} className="w-full object-cover" data-ai-hint="car road"/>
                 <AccordionItem value="item-1" className="border-b-0">
                   <AccordionTrigger className="p-6 hover:no-underline">
                     <div className="flex items-center gap-4 text-left">
-                      <Car className="h-8 w-8 text-white flex-shrink-0" />
                       <div>
                         <CardTitle className="text-xl">Seguro Auto</CardTitle>
                         <CardDescription className="text-sm text-muted-foreground mt-1">
@@ -93,12 +98,10 @@ import {
             </Accordion>
   
             {insuranceOptions.map((item) => (
-              <Card key={item.title} className="bg-card/80 flex flex-col h-full hover:bg-card transition-colors">
-                <CardHeader className="flex flex-row items-center gap-4">
-                  <item.icon className="h-8 w-8 text-white flex-shrink-0" />
-                  <div>
+              <Card key={item.title} className="bg-card/80 flex flex-col h-full hover:bg-card transition-colors overflow-hidden">
+                <Image src={item.image} alt={item.title} width={400} height={250} className="w-full object-cover" data-ai-hint={item.imageHint}/>
+                <CardHeader>
                     <CardTitle className="text-xl">{item.title}</CardTitle>
-                  </div>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <CardDescription className="text-sm text-muted-foreground">{item.description}</CardDescription>

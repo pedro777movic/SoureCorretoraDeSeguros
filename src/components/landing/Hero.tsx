@@ -1,13 +1,23 @@
 import WhatsAppButton from "./WhatsAppButton";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-80px)] items-center justify-center overflow-hidden text-center">
+       <Image
+          src="https://picsum.photos/seed/family/1920/1080"
+          alt="Family feeling secure"
+          fill
+          className="object-cover object-center"
+          priority
+          data-ai-hint="secure family"
+        />
+        <div className="absolute inset-0 bg-background/60 backdrop-brightness-75"></div>
       <div className="container relative z-10 mx-auto px-4 py-20">
-        <h2 className="mb-4 text-2xl font-bold uppercase tracking-wider text-white/80 md:text-3xl">
+        <h2 className="mb-4 text-2xl font-bold uppercase tracking-widest text-white/90 md:text-3xl lg:text-4xl">
           SOURE CORRETORA DE SEGUROS
         </h2>
-        <h1 className="mb-6 font-light text-3xl md:text-4xl leading-tight">
+        <h1 className="mb-6 text-4xl font-light leading-tight text-white md:text-5xl">
           Proteção inteligente para o que realmente importa na sua vida.
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-base text-muted-foreground md:text-lg">
