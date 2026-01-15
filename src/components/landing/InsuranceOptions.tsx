@@ -35,7 +35,7 @@ import {
       description: "Acesso aos melhores hospitais e laboratórios para cuidar da sua saúde e bem-estar.",
     },
     {
-      image: "https://picsum.photos/seed/dental/400/250",
+      image: "https://i.postimg.cc/6qGgKz9j/Gemini-Generated-Image-n7dbfln7dbfln7db.png",
       imageHint: "person smiling",
       title: "Seguro Odontológico",
       description: "Sorria com confiança. Acesso a uma ampla rede de dentistas e clínicas.",
