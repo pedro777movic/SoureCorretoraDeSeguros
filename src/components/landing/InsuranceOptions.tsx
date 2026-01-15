@@ -17,7 +17,7 @@ import {
   
   const insuranceOptions = [
     {
-      image: "https://i.postimg.cc/HksGcwzR/Gemini-Generated-Image-y5qwr9y5qwr9y5qw.png",
+      image: "https://i.postimg.cc/cJGTVZj4/Gemini-Generated-Image-btharjbtharjbtha.png",
       imageHint: "modern house",
       title: "Seguro Residencial",
       description: "Sua casa protegida contra imprevistos. Cuidamos do seu lar como se fosse nosso.",
