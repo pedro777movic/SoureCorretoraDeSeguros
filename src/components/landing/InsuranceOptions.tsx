@@ -17,7 +17,7 @@ import {
   
   const insuranceOptions = [
     {
-      image: "https://picsum.photos/seed/house/400/250",
+      image: "https://i.postimg.cc/cJGTVZj4/Gemini-Generated-Image-btharjbtharjbtha.png",
       imageHint: "modern house",
       title: "Seguro Residencial",
       description: "Sua casa protegida contra imprevistos. Cuidamos do seu lar como se fosse nosso.",
@@ -58,44 +58,43 @@ import {
           </div>
   
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <Accordion type="single" collapsible className="w-full">
-              <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
-                 <Image src="https://i.postimg.cc/d3FY1zLL/Gemini-Generated-Image-sti69csti69csti6.png" alt="Car on a road" width={400} height={250} className="w-full object-cover" data-ai-hint="car road"/>
-                <AccordionItem value="item-1" className="border-b-0">
-                  <AccordionTrigger className="p-6 hover:no-underline">
-                    <div className="flex items-center gap-4 text-left">
-                      <div>
-                        <CardTitle className="text-xl">Seguro Auto</CardTitle>
-                        <CardDescription className="text-sm text-muted-foreground mt-1">
-                          Proteção completa para seu veículo, com a tranquilidade que você merece.
-                        </CardDescription>
-                      </div>
-                    </div>
-                  </AccordionTrigger>
-                  <AccordionContent className="px-6 pb-6">
-                    <Tabs defaultValue="individual" className="w-full">
-                      <TabsList className="grid w-full grid-cols-3 bg-background/50">
-                        <TabsTrigger value="individual">Individual</TabsTrigger>
-                        <TabsTrigger value="frota">Frota</TabsTrigger>
-                        <TabsTrigger value="moto">Moto</TabsTrigger>
-                      </TabsList>
-                      <TabsContent value="individual" className="mt-4 text-sm text-muted-foreground">
-                        Cobertura completa para seu carro particular, incluindo roubo, colisão e assistência 24h.
-                      </TabsContent>
-                      <TabsContent value="frota" className="mt-4 text-sm text-muted-foreground">
-                        Soluções para empresas que precisam proteger sua frota de veículos com um único contrato.
-                      </TabsContent>
-                      <TabsContent value="moto" className="mt-4 text-sm text-muted-foreground">
-                        Segurança e proteção para sua motocicleta, com coberturas essenciais para o dia a dia.
-                      </TabsContent>
-                    </Tabs>
-                  </AccordionContent>
-                </AccordionItem>
-                 <div className="mt-auto p-6 pt-0">
-                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
-                </div>
-              </Card>
-            </Accordion>
+            <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
+               <Image src="https://i.postimg.cc/d3FY1zLL/Gemini-Generated-Image-sti69csti69csti6.png" alt="Car on a road" width={400} height={250} className="w-full object-cover" data-ai-hint="car road"/>
+              <div className="flex flex-col flex-grow p-6">
+                <CardTitle className="text-xl">Seguro Auto</CardTitle>
+                <CardDescription className="text-sm text-muted-foreground mt-1 flex-grow">
+                  Proteção completa para seu veículo, com a tranquilidade que você merece.
+                </CardDescription>
+                <Accordion type="single" collapsible className="w-full pt-4">
+                  <AccordionItem value="item-1" className="border-b-0">
+                    <AccordionTrigger className="p-0 hover:no-underline justify-start gap-2 text-sm text-secondary">
+                      Ver detalhes
+                    </AccordionTrigger>
+                    <AccordionContent className="pt-4">
+                      <Tabs defaultValue="individual" className="w-full">
+                        <TabsList className="grid w-full grid-cols-3 bg-background/50">
+                          <TabsTrigger value="individual">Individual</TabsTrigger>
+                          <TabsTrigger value="frota">Frota</TabsTrigger>
+                          <TabsTrigger value="moto">Moto</TabsTrigger>
+                        </TabsList>
+                        <TabsContent value="individual" className="mt-4 text-sm text-muted-foreground">
+                          Cobertura completa para seu carro particular, incluindo roubo, colisão e assistência 24h.
+                        </TabsContent>
+                        <TabsContent value="frota" className="mt-4 text-sm text-muted-foreground">
+                          Soluções para empresas que precisam proteger sua frota de veículos com um único contrato.
+                        </TabsContent>
+                        <TabsContent value="moto" className="mt-4 text-sm text-muted-foreground">
+                          Segurança e proteção para sua motocicleta, com coberturas essenciais para o dia a dia.
+                        </TabsContent>
+                      </Tabs>
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+               </div>
+               <div className="mt-auto p-6 pt-0">
+                  <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+              </div>
+            </Card>
   
             {insuranceOptions.map((item) => (
               <Card key={item.title} className="bg-card/80 flex flex-col h-full hover:bg-card transition-colors overflow-hidden">
