@@ -41,7 +41,7 @@ import {
       description: "Sorria com confiança. Acesso a uma ampla rede de dentistas e clínicas.",
     },
     {
-      image: "https://picsum.photos/seed/business/400/250",
+      image: "https://i.postimg.cc/HksGcwzR/Gemini-Generated-Image-y5qwr9y5qwr9y5qw.png",
       imageHint: "office building",
       title: "Seguro Empresarial",
       description: "Proteja seu negócio, seus funcionários e seu patrimônio contra riscos.",
