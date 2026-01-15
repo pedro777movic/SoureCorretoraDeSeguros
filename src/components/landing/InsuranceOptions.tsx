@@ -58,7 +58,7 @@ import {
           </div>
   
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <Accordion type="single" collapsible className="lg:col-span-1 md:col-span-2">
+            <Accordion type="single" collapsible className="w-full">
               <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
                  <Image src="https://i.postimg.cc/d3FY1zLL/Gemini-Generated-Image-sti69csti69csti6.png" alt="Car on a road" width={400} height={250} className="w-full object-cover" data-ai-hint="car road"/>
                 <AccordionItem value="item-1" className="border-b-0">
