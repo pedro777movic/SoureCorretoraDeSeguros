@@ -59,7 +59,7 @@ import {
   
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
-               <Image src="https://i.postimg.cc/d3FY1zLL/Gemini-Generated-Image-sti69csti69csti6.png" alt="Car on a road" width={400} height={250} className="w-full object-cover" data-ai-hint="car road"/>
+               <Image src="https://i.postimg.cc/3Jx0t6xy/Gemini-Generated-Image-f0p0rf0p0rf0p0rf.png" alt="Car on a road" width={400} height={250} className="w-full object-cover" data-ai-hint="car road"/>
               <div className="flex flex-col flex-grow p-6">
                 <CardTitle className="text-xl">Seguro Auto</CardTitle>
                 <CardDescription className="text-sm text-muted-foreground mt-1 flex-grow">
