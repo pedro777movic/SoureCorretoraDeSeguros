@@ -14,7 +14,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-background/60 backdrop-brightness-75"></div>
       <div className="container relative z-10 mx-auto px-4 py-20">
-        <h2 className="mb-6 font-medium uppercase tracking-[0.2em] text-white/80 md:text-lg">
+        <h2 className="mb-6 text-lg font-bold uppercase tracking-[0.2em] text-white/90 md:text-xl">
           Soure Corretora de Seguros
         </h2>
         <h1 className="mb-6 text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
