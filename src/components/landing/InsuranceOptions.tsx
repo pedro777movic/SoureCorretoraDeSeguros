@@ -23,7 +23,7 @@ import {
       description: "Sua casa protegida contra imprevistos. Cuidamos do seu lar como se fosse nosso.",
     },
     {
-      image: "https://i.postimg.cc/hPJknDCm/Gemini-Generated-Image-gzx2iwgzx2iwgzx2.png",
+      image: "https://i.postimg.cc/HkZPKfmm/Gemini-Generated-Image-i8mr1zi8mr1zi8mr.png",
       imageHint: "happy couple",
       title: "Seguro de Vida",
       description: "Garanta a segurança e o futuro de quem você ama com planos flexíveis.",
