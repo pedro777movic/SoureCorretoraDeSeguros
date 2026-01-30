@@ -40,12 +40,6 @@ import {
       title: "Seguro Odontológico",
       description: "Sorria com confiança. Acesso a uma ampla rede de dentistas e clínicas.",
     },
-    {
-      image: "https://i.postimg.cc/HksGcwzR/Gemini-Generated-Image-y5qwr9y5qwr9y5qw.png",
-      imageHint: "office building",
-      title: "Seguro Empresarial",
-      description: "Proteja seu negócio, seus funcionários e seu patrimônio contra riscos.",
-    },
   ];
   
   export default function InsuranceOptions() {
@@ -94,6 +88,52 @@ import {
                <div className="mt-auto p-6 pt-0">
                   <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
               </div>
+            </Card>
+
+            <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
+                <Image src="https://i.postimg.cc/HksGcwzR/Gemini-Generated-Image-y5qwr9y5qwr9y5qw.png" alt="Seguro Empresarial" width={400} height={250} className="w-full object-cover" data-ai-hint="office building"/>
+                <div className="flex flex-col flex-grow p-6">
+                    <CardTitle className="text-xl">Seguro Empresarial</CardTitle>
+                    <CardDescription className="text-sm text-muted-foreground mt-1 flex-grow">
+                        Proteja seu negócio, seus funcionários e seu patrimônio contra riscos.
+                    </CardDescription>
+                    <Accordion type="single" collapsible className="w-full pt-4">
+                        <AccordionItem value="item-1" className="border-b-0">
+                            <AccordionTrigger className="p-0 hover:no-underline justify-start gap-2 text-sm text-secondary">
+                                Ver detalhes
+                            </AccordionTrigger>
+                            <AccordionContent className="pt-4">
+                                <Tabs defaultValue="equipamentos" className="w-full">
+                                    <TabsList className="flex h-auto w-full flex-wrap justify-center bg-background/50">
+                                        <TabsTrigger value="equipamentos">Equipamentos</TabsTrigger>
+                                        <TabsTrigger value="agro">Agro</TabsTrigger>
+                                        <TabsTrigger value="patrimonial">Patrimonial</TabsTrigger>
+                                        <TabsTrigger value="funcionarios">Funcionários</TabsTrigger>
+                                        <TabsTrigger value="outros">Outros</TabsTrigger>
+                                    </TabsList>
+                                    <TabsContent value="equipamentos" className="mt-4 text-sm text-muted-foreground">
+                                        Proteção para máquinas e equipamentos essenciais para a sua operação.
+                                    </TabsContent>
+                                    <TabsContent value="agro" className="mt-4 text-sm text-muted-foreground">
+                                        Seguro para o agronegócio, cobrindo lavouras, rebanhos e equipamentos agrícolas.
+                                    </TabsContent>
+                                    <TabsContent value="patrimonial" className="mt-4 text-sm text-muted-foreground">
+                                        Cobertura para o patrimônio da sua empresa, como prédios, estoques e instalações.
+                                    </TabsContent>
+                                    <TabsContent value="funcionarios" className="mt-4 text-sm text-muted-foreground">
+                                        Planos de vida e saúde para seus colaboradores, valorizando seu time.
+                                    </TabsContent>
+                                    <TabsContent value="outros" className="mt-4 text-sm text-muted-foreground">
+                                        Soluções personalizadas para outros riscos específicos do seu negócio.
+                                    </TabsContent>
+                                </Tabs>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+                </div>
+                <div className="mt-auto p-6 pt-0">
+                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                </div>
             </Card>
   
             {insuranceOptions.map((item) => (
