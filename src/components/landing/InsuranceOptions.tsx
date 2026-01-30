@@ -29,7 +29,7 @@ import {
       description: "Garanta a segurança e o futuro de quem você ama com planos flexíveis.",
     },
     {
-      image: "https://i.postimg.cc/JnSYpJbZ/Gemini-Generated-Image-jplhhhjplhhhjplh.png",
+      image: "https://i.postimg.cc/sXt3R1Kn/Chat-GPT-Image-30-de-jan-de-2026-10-47-05.png",
       imageHint: "doctor patient",
       title: "Plano de Saúde",
       description: "Acesso aos melhores hospitais e laboratórios para cuidar da sua saúde e bem-estar.",
