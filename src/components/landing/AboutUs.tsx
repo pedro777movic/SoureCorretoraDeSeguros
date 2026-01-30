@@ -7,7 +7,7 @@ export default function AboutUs() {
           </h2>
           <div className="mx-auto max-w-3xl">
             <p className="text-lg text-muted-foreground">
-              A Soure nasceu para cuidar do que é importante para você. Da sua família, do seu carro, da sua casa, do seu trabalho e da tranquilidade de saber que, aconteça o que acontecer, você não estará sozinho.  Somos uma corretora de seguros que acredita que cada pessoa tem uma história, uma rotina e necessidades únicas. Por isso, aqui você não recebe apenas um seguro — recebe orientação, clareza e proteção sob medida.  Analisamos o seu perfil com atenção, explicamos tudo de forma simples e buscamos, entre as melhores seguradoras do mercado, a solução que faz sentido para a sua realidade e para o seu bolso.  Nosso compromisso é com a sua tranquilidade, hoje e no futuro. Apenas o que você precisa para viver com mais segurança e menos preocupação.
+              A Soure nasceu para proteger o que realmente importa na sua vida: sua família, seu carro, sua casa, seu trabalho e a tranquilidade de saber que, aconteça o que acontecer, você não estará sozinho.  Somos uma corretora de seguros que entende que cada pessoa tem uma história, uma rotina e necessidades únicas. Por isso, aqui você não recebe apenas um seguro — recebe orientação, clareza e proteção sob medida.  Analisamos o seu perfil com atenção, explicamos tudo de forma simples e buscamos, entre as melhores seguradoras do mercado, a solução que faz sentido para a sua realidade e para o seu bolso. Nosso compromisso é com a sua tranquilidade, hoje e no futuro.
             </p>
           </div>
         </div>
