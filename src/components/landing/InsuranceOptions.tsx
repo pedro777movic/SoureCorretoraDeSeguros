@@ -135,6 +135,40 @@ import {
                     <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
                 </div>
             </Card>
+
+            <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
+                <Image src="https://picsum.photos/seed/consorcio/400/250" alt="Consórcio" width={400} height={250} className="w-full object-cover" data-ai-hint="planning future"/>
+                <div className="flex flex-col flex-grow p-6">
+                    <CardTitle className="text-xl">Consórcio</CardTitle>
+                    <CardDescription className="text-sm text-muted-foreground mt-1 flex-grow">
+                        Realize seus sonhos de forma planejada e sem juros.
+                    </CardDescription>
+                    <Accordion type="single" collapsible className="w-full pt-4">
+                        <AccordionItem value="item-1" className="border-b-0">
+                            <AccordionTrigger className="p-0 hover:no-underline justify-start gap-2 text-sm text-secondary">
+                                Ver detalhes
+                            </AccordionTrigger>
+                            <AccordionContent className="pt-4">
+                                <Tabs defaultValue="bens" className="w-full">
+                                    <TabsList className="grid w-full grid-cols-2 bg-background/50">
+                                        <TabsTrigger value="bens">Bens</TabsTrigger>
+                                        <TabsTrigger value="servicos">Serviços</TabsTrigger>
+                                    </TabsList>
+                                    <TabsContent value="bens" className="mt-4 text-sm text-muted-foreground">
+                                        Planeje a compra do seu carro ou imóvel de forma inteligente e sem juros.
+                                    </TabsContent>
+                                    <TabsContent value="servicos" className="mt-4 text-sm text-muted-foreground">
+                                        Realize seus sonhos, como festas, viagens e cirurgias, com o consórcio de serviços.
+                                    </TabsContent>
+                                </Tabs>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+                </div>
+                <div className="mt-auto p-6 pt-0">
+                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                </div>
+            </Card>
   
             {insuranceOptions.map((item) => (
               <Card key={item.title} className="bg-card/80 flex flex-col h-full hover:bg-card transition-colors overflow-hidden">
