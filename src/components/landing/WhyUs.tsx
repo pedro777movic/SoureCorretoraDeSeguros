@@ -18,7 +18,7 @@ export default function WhyUs() {
                 Por que escolher a Soure?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto md:mx-0">
-                Entendemos que cada cliente é único. Por isso, nosso foco é oferecer uma consultoria de seguros que vai além do básico. Combinamos tecnologia e atendimento humano para garantir que você tenha a melhor experiência e a proteção mais adequada.
+                Porque seguro não deve ser complicado, nem impessoal. Na Soure, o foco é oferecer uma consultoria de seguros que vai além do básico, unindo tecnologia e atendimento humano para garantir a melhor experiência e a proteção certa para você.
               </p>
                <ul className="space-y-4 inline-block text-left">
                 {benefits.map((benefit, index) => (
