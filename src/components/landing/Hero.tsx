@@ -14,6 +14,15 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-background/60 backdrop-brightness-75"></div>
       <div className="container relative z-10 mx-auto px-4 py-20">
+        <div className="flex justify-center mb-4">
+          <Image
+            src="https://i.postimg.cc/GtX2vZpT/file-00000000af2c71f5b0f4b1b8bcbd68a3.png"
+            alt="Soure Corretora de Seguros Logo"
+            width={200}
+            height={50}
+            priority
+          />
+        </div>
         <h2 className="mb-6 text-lg font-bold uppercase tracking-[0.2em] text-white/90 md:text-xl">
           Soure Corretora de Seguros
         </h2>
