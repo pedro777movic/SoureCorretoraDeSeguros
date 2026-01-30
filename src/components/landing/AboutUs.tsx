@@ -7,7 +7,7 @@ export default function AboutUs() {
           </h2>
           <div className="mx-auto max-w-3xl">
             <p className="text-lg text-muted-foreground">
-              A Soure é uma corretora de seguros dedicada a oferecer proteção e tranquilidade para pessoas e empresas em todo o Brasil. Nossa missão é simplificar o universo dos seguros, proporcionando um atendimento personalizado, transparente e ágil. Analisamos seu perfil e suas necessidades para encontrar as melhores soluções do mercado, garantindo que você e seu patrimônio estejam sempre seguros.
+              A Soure nasceu para cuidar do que é importante para você. Da sua família, do seu carro, da sua casa, do seu trabalho e da tranquilidade de saber que, aconteça o que acontecer, você não estará sozinho.  Somos uma corretora de seguros que acredita que cada pessoa tem uma história, uma rotina e necessidades únicas. Por isso, aqui você não recebe apenas um seguro — recebe orientação, clareza e proteção sob medida.  Analisamos o seu perfil com atenção, explicamos tudo de forma simples e buscamos, entre as melhores seguradoras do mercado, a solução que faz sentido para a sua realidade e para o seu bolso.  Nosso compromisso é com a sua tranquilidade, hoje e no futuro. Apenas o que você precisa para viver com mais segurança e menos preocupação.
             </p>
           </div>
         </div>
