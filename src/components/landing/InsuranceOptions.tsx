@@ -137,7 +137,7 @@ import {
             </Card>
 
             <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
-                <Image src="https://picsum.photos/seed/consorcio/400/250" alt="Consórcio" width={400} height={250} className="w-full object-cover" data-ai-hint="planning future"/>
+                <Image src="https://i.postimg.cc/jdQY8Rn2/Chat-GPT-Image-30-de-jan-de-2026-11-15-19.png" alt="Consórcio" width={400} height={250} className="w-full object-cover" data-ai-hint="planning future"/>
                 <div className="flex flex-col flex-grow p-6">
                     <CardTitle className="text-xl">Consórcio</CardTitle>
                     <CardDescription className="text-sm text-muted-foreground mt-1 flex-grow">
@@ -189,3 +189,4 @@ import {
       </section>
     );
   }
+    
