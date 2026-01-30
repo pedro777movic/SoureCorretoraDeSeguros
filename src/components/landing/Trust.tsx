@@ -6,7 +6,7 @@ export default function Trust() {
             Nosso Compromisso com Você
           </h2>
           <p className="mx-auto max-w-3xl text-lg text-muted-foreground">
-            Na Soure, cada cliente é tratado com a máxima seriedade e respeito. Nosso compromisso é com a sua segurança e satisfação. Atuamos com total transparência, explicando cada detalhe do seu seguro para que você faça sempre a melhor escolha.
+            Na Soure, cada cliente é tratado com seriedade, respeito e atenção aos detalhes. Nosso compromisso é com a sua segurança e com a sua tranquilidade em cada etapa.  Atuamos com total transparência, explicando claramente cada ponto do seu seguro, para que você tenha segurança na escolha e confiança no que está contratando.
           </p>
         </div>
       </section>
