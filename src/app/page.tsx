@@ -7,6 +7,7 @@ import HowItWorks from '@/components/landing/HowItWorks';
 import Trust from '@/components/landing/Trust';
 import FinalCta from '@/components/landing/FinalCta';
 import Footer from '@/components/landing/Footer';
+import Insurers from '@/components/landing/Insurers';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <AboutUs />
         <InsuranceOptions />
         <WhyUs />
+        <Insurers />
         <HowItWorks />
         <Trust />
         <FinalCta />
