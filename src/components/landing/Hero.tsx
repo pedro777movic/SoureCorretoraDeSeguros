@@ -8,7 +8,7 @@ export default function Hero() {
           src="https://i.postimg.cc/HkZPKfmm/Gemini-Generated-Image-i8mr1zi8mr1zi8mr.png"
           alt="Family feeling secure"
           fill
-          className="object-cover object-center"
+          className="object-cover object-bottom"
           priority
           data-ai-hint="secure family"
         />
