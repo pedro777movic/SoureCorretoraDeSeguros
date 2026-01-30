@@ -18,8 +18,8 @@ export default function Hero() {
           <Image
             src="https://i.postimg.cc/GtX2vZpT/file-00000000af2c71f5b0f4b1b8bcbd68a3.png"
             alt="Soure Corretora de Seguros Logo"
-            width={180}
-            height={45}
+            width={160}
+            height={40}
             priority
           />
         </div>
