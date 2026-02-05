@@ -14,7 +14,10 @@ import {
   import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
   import { Button } from "@/components/ui/button";
   import Image from "next/image";
+  import Link from "next/link";
   
+  const WHATSAPP_LINK = "https://wa.me/5598984250300?text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o.";
+
   const insuranceOptions = [
     {
       image: "https://i.postimg.cc/cJGTVZj4/Gemini-Generated-Image-btharjbtharjbtha.png",
@@ -52,6 +55,7 @@ import {
           </div>
   
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {/* Seguro Auto */}
             <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
                <Image src="https://i.postimg.cc/Y0ts5HYB/Chat-GPT-Image-30-de-jan-de-2026-10-23-45.png" alt="Car on a road" width={400} height={250} className="w-full object-cover" data-ai-hint="car road"/>
               <div className="flex flex-col flex-grow p-6">
@@ -86,10 +90,13 @@ import {
                 </Accordion>
                </div>
                <div className="mt-auto p-6 pt-0">
-                  <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                  <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                  </Link>
               </div>
             </Card>
 
+            {/* Seguro Empresarial */}
             <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
                 <Image src="https://i.postimg.cc/HksGcwzR/Gemini-Generated-Image-y5qwr9y5qwr9y5qw.png" alt="Seguro Empresarial" width={400} height={250} className="w-full object-cover" data-ai-hint="office building"/>
                 <div className="flex flex-col flex-grow p-6">
@@ -132,10 +139,13 @@ import {
                     </Accordion>
                 </div>
                 <div className="mt-auto p-6 pt-0">
-                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                    <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                      <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                    </Link>
                 </div>
             </Card>
 
+            {/* Consórcio */}
             <Card className="bg-card/80 flex flex-col h-full overflow-hidden">
                 <Image src="https://i.postimg.cc/jdQY8Rn2/Chat-GPT-Image-30-de-jan-de-2026-11-15-19.png" alt="Consórcio" width={400} height={250} className="w-full object-cover" data-ai-hint="planning future"/>
                 <div className="flex flex-col flex-grow p-6">
@@ -166,10 +176,13 @@ import {
                     </Accordion>
                 </div>
                 <div className="mt-auto p-6 pt-0">
-                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                    <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                      <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                    </Link>
                 </div>
             </Card>
   
+            {/* Outras Opções de Seguro */}
             {insuranceOptions.map((item) => (
               <Card key={item.title} className="bg-card/80 flex flex-col h-full hover:bg-card transition-colors overflow-hidden">
                 <Image src={item.image} alt={item.title} width={400} height={250} className="w-full object-cover" data-ai-hint={item.imageHint}/>
@@ -180,7 +193,9 @@ import {
                   <CardDescription className="text-sm text-muted-foreground">{item.description}</CardDescription>
                 </CardContent>
                 <div className="p-6 pt-0">
-                  <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                  <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                    <Button variant="secondary" className="w-full bg-white text-background hover:bg-white/90">Solicitar cotação</Button>
+                  </Link>
                 </div>
               </Card>
             ))}
@@ -189,4 +204,3 @@ import {
       </section>
     );
   }
-    
