@@ -25,15 +25,15 @@ export default function Insurers() {
         <p className="mx-auto max-w-3xl text-lg text-muted-foreground mb-12">
             Trabalhamos com parceiros sólidos e reconhecidos para garantir a sua tranquilidade e as melhores coberturas.
         </p>
-        <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
-            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-10 animate-infinite-scroll">
+        <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_40px,_black_calc(100%-40px),transparent_100%)] md:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-6 md:[&_li]:mx-10 animate-infinite-scroll">
                 {insurers.map((insurer) => (
                     <li key={insurer.name}>
                         <span className="text-xl font-medium text-muted-foreground whitespace-nowrap">{insurer.name}</span>
                     </li>
                 ))}
             </ul>
-            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-10 animate-infinite-scroll" aria-hidden="true">
+            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-6 md:[&_li]:mx-10 animate-infinite-scroll" aria-hidden="true">
                  {insurers.map((insurer) => (
                     <li key={insurer.name}>
                         <span className="text-xl font-medium text-muted-foreground whitespace-nowrap">{insurer.name}</span>
