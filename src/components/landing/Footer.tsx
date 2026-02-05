@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Instagram } from "lucide-react";
 import { WhatsAppIcon } from "../icons/WhatsAppIcon";
 
+const WHATSAPP_LINK = "https://wa.me/5598984250300?text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o.";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -12,7 +14,7 @@ export default function Footer() {
           Fale conosco e descubra como podemos proteger o que é mais importante para você.
         </p>
         <div className="flex justify-center gap-6 mb-6">
-          <Link href="#" className="text-muted-foreground hover:text-white transition-colors" aria-label="WhatsApp">
+          <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors" aria-label="WhatsApp">
             <WhatsAppIcon className="h-6 w-6" />
           </Link>
           <Link href="#" className="text-muted-foreground hover:text-white transition-colors" aria-label="Instagram">

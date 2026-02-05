@@ -10,7 +10,7 @@ interface WhatsAppButtonProps {
   size?: 'default' | 'large';
 }
 
-const WHATSAPP_LINK = "https://wa.me/5511999999999?text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o.";
+const WHATSAPP_LINK = "https://wa.me/5598984250300?text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o.";
 
 export default function WhatsAppButton({ children, className, size = 'default' }: WhatsAppButtonProps) {
   const sizeClasses = size === 'large'
