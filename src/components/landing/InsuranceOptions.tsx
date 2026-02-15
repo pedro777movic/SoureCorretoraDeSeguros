@@ -46,6 +46,8 @@ import {
   ];
   
   export default function InsuranceOptions() {
+    const detailTriggerClasses = "flex h-9 w-fit items-center justify-between rounded-md bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-white/20 hover:no-underline gap-2";
+
     return (
       <section id="nossos-seguros" className="py-16 md:py-24">
         <div className="container mx-auto px-4">
@@ -65,7 +67,7 @@ import {
                 </CardDescription>
                 <Accordion type="single" collapsible className="w-full pt-4">
                   <AccordionItem value="item-1" className="border-b-0">
-                    <AccordionTrigger className="p-0 hover:no-underline justify-start gap-2 text-sm text-secondary">
+                    <AccordionTrigger className={detailTriggerClasses}>
                       Ver detalhes
                     </AccordionTrigger>
                     <AccordionContent className="pt-4">
@@ -106,7 +108,7 @@ import {
                     </CardDescription>
                     <Accordion type="single" collapsible className="w-full pt-4">
                         <AccordionItem value="item-1" className="border-b-0">
-                            <AccordionTrigger className="p-0 hover:no-underline justify-start gap-2 text-sm text-secondary">
+                            <AccordionTrigger className={detailTriggerClasses}>
                                 Ver detalhes
                             </AccordionTrigger>
                             <AccordionContent className="pt-4">
@@ -155,7 +157,7 @@ import {
                     </CardDescription>
                     <Accordion type="single" collapsible className="w-full pt-4">
                         <AccordionItem value="item-1" className="border-b-0">
-                            <AccordionTrigger className="p-0 hover:no-underline justify-start gap-2 text-sm text-secondary">
+                            <AccordionTrigger className={detailTriggerClasses}>
                                 Ver detalhes
                             </AccordionTrigger>
                             <AccordionContent className="pt-4">
