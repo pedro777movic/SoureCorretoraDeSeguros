@@ -49,6 +49,27 @@ export default function RootLayout({
             `,
           }}
         />
+
+        {/* UTMify Pixel Code */}
+        <Script id="utmify-pixel" strategy="afterInteractive">
+          {`
+            window.pixelId = "699331695ef94bcc23e115ca";
+            var a = document.createElement("script");
+            a.setAttribute("async", "");
+            a.setAttribute("defer", "");
+            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+            document.head.appendChild(a);
+          `}
+        </Script>
+
+        {/* UTMify UTMs Script */}
+        <Script 
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js" 
+          data-utmify-prevent-xcod-sck="true"
+          data-utmify-prevent-subids="true"
+          strategy="afterInteractive"
+        />
+
         {children}
         <Toaster />
       </body>
